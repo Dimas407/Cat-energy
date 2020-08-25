@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="webmart" charset="utf-8" content="text/html">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cat-energy</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="page-headeer__wrapper">
+            <div class="page-header__oll">
+                <a class="page-header__logo">
+                    <img class="page-header__oll-logo1" src="image/logo-mobile.png">
+                    <img class="page-header__oll-logo2" src="image/logo-tablet.png">
+                    <img class="page-header__oll-logo3" src="image/logo-desktop.png">
+                </a>
+                <h1><span class="page-header-h1">Cat</span> energe</h1>
+            </div>
+            <nav class="main-nav main-nav--closed main-nav--nojs">
+                <div class="main-nav__toggle" type="button">
+                    Открыть меню
+                </div>
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list site-list">
+                        <li class="site-list__item">
+                            <a class="site-list__item1" href="#">Главная</a>
+                        </li>
+                        <li class="site-list__item site-list__item--active">
+                            <a class="site-list__item2" href="photo.html">Каталог продукции</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__item3" href="contest.html">Подбор товаров</a>
+                        </li>
+                        <div class="site-list__item--active"></div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        let navMain = document.querySelector('.main-nav');
+        let navToggle = document.querySelector('.main-nav__toggle');
+
+        navMain.classList.remove('main-nav--nojs');
+
+        navToggle.addEventListener('click', function () {
+            if (navMain.classList.contains('main-nav--closed')){
+                navMain.classList.remove('main-nav--closed');
+                navMain.classList.add('main-nav--opened');
+            }else{
+                navMain.classList.add('main-nav--closed');
+                navMain.classList.remove('main-nav--opened');
+            }
+        })
+    </script>
+    <div class="product">
+        <div class="product__wrapper">
+            <div class="product-bye">
+                <div class="product__img">
+                    <img src="image/catalog-1-mobile.png">
+                </div>
+                <div class="product__discription-oll">
+                    <h3 class="product__h3">Cat energy pro 500г</h3>
+                    <div class="product__discription">
+                        <ul>
+                            <li>Объем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вкус</li>
+                            <li>Курица</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="product__button" type="button">Заказать</button>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product__wrapper">
+            <div class="product-bye">
+                <div class="product__img">
+                    <img src="image/catalog-2-mobile.png">
+                </div>
+                <div class="product__discription-oll">
+                    <h3 class="product__h3">Cat energy pro 1000г</h3>
+                    <div class="product__discription">
+                        <ul>
+                            <li>Объем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вкус</li>
+                            <li>Курица</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>1000р</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="product__button" type="button">Заказать</button>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product__wrapper">
+            <div class="product-bye">
+                <div class="product__img">
+                    <img src="image/catalog-3-mobile.png">
+                </div>
+                <div class="product__discription-oll">
+                    <h3 class="product__h3">Cat energy pro 500г</h3>
+                    <div class="product__discription">
+                        <ul>
+                            <li>Объем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вкус</li>
+                            <li>Рыба</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="product__button" type="button">Заказать</button>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product__wrapper">
+            <div class="product-bye">
+                <div class="product__img">
+                    <img src="image/catalog-4-mobile.png">
+                </div>
+                <div class="product__discription-oll">
+                    <h3 class="product__h3">Cat energy pro 1000г</h3>
+                    <div class="product__discription">
+                        <ul>
+                            <li>Объем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вкус</li>
+                            <li>Рыба</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>1000р</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="product__button" type="button">Заказать</button>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product__wrapper">
+            <div class="product-bye">
+                <div class="product__img">
+                    <img src="image/catalog-5-mobile.png">
+                </div>
+                <div class="product__discription-oll">
+                    <h3 class="product__h3">Cat energy pro 500г</h3>
+                    <div class="product__discription">
+                        <ul>
+                            <li>Объем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вкус</li>
+                            <li>Гречка</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>400р</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="product__button" type="button">Заказать</button>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product__wrapper">
+            <div class="product-bye">
+                <div class="product__img">
+                    <img src="image/catalog-6-mobile.png">
+                </div>
+                <div class="product__discription-oll">
+                    <h3 class="product__h3">Cat energy pro 1000г</h3>
+                    <div class="product__discription">
+                        <ul>
+                            <li>Объем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вкус</li>
+                            <li>Гречка</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="product__button" type="button">Заказать</button>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product__wrapper">
+            <div class="product-bye">
+                <div class="product__img">
+                    <img src="image/catalog-7-mobile.png">
+                </div>
+                <div class="product__discription-oll">
+                    <h3 class="product__h3">Cat energy pro 500г</h3>
+                    <div class="product__discription">
+                        <ul>
+                            <li>Объем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вкус</li>
+                            <li>Рис</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>500р</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="product__button" type="button">Заказать</button>
+        </div>
+    </div>
+    <div class="product-oll">
+        <div class="product-oll__wrapper">
+            <div class="product-bye">
+                <div class="product-oll__h3 product-oll__sprite">
+                    <a class="product-oll__show" href="#">Показать еще 100500 товаров</a>
+                    <span>На самом деле вкусов гораздо больше!</span>
+                </div>
+            </div>
+            <button class="product__addition" type="button">Заказать</button>
+        </div>
+    </div>
+
+    <div class="product-tablet">
+        <div class="product-tablet__wrapper">
+            <h2>Каталог продукции</h2>
+            <div class="product-tablet__wrapper-oll">
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img src="image/catalog-1-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>500г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Курица</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img class="product-tablet-block__img" src="image/catalog-2-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>1000г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Курица</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>1000р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-tablet__wrapper-oll">
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img src="image/catalog-3-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>500г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Рыба</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img class="product-tablet-block__img" src="image/catalog-4-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>1000г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Рыба</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-tablet__wrapper-oll">
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img src="image/catalog-5-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy slim</span>
+                            <span>500г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Гречка</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>400р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img class="product-tablet-block__img" src="image/catalog-6-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy slim</span>
+                            <span>1000г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Гречка</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-tablet__wrapper-oll">
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img src="image/catalog-7-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy slim</span>
+                            <span>500г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Рис</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>500р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <div class="product-tablet-block-oll">
+                            <div class="product-oll__wrapper">
+                                <div class="product-bye">
+                                    <div class="product-oll__h3 product-oll__sprite">
+                                        <a class="product-oll__show" href="#">Показать еще 100500 товаров</a>
+                                        <span>На самом деле вкусов гораздо больше!</span>
+                                    </div>
+                                </div>
+                                <button class="product__addition" type="button">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-desctop">
+        <div class="product-desctop__wrapper">
+            <h2>Каталог продукции</h2>
+            <div class="product-desktop__wrapper-oll">
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img src="image/catalog-1-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>500г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Курица</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img class="product-tablet-block__img" src="image/catalog-2-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>1000г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Курица</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>1000р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img src="image/catalog-3-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>500г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>500г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Рыба</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+                <div class="product-tablet-block">
+                    <div class="product-tablet__bye-oll">
+                        <img class="product-tablet-block__img" src="image/catalog-4-tablet.png">
+                    </div>
+                    <div class="product-tablet__discription-oll">
+                        <h3><span>Cat Energy pro</span>
+                            <span>1000г</span></h3>
+                        <ul>
+                            <li>Обьем</li>
+                            <li>1000г</li>
+                        </ul>
+                        <ul>
+                            <li>Вус</li>
+                            <li>Рыба</li>
+                        </ul>
+                        <ul>
+                            <li>Цена</li>
+                            <li>700р</li>
+                        </ul>
+                        <button class="product__button" type="button">Заказать</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-desktop__wrapper-oll">
+                    <div class="product-tablet-block">
+                        <div class="product-tablet__bye-oll">
+                            <img src="image/catalog-5-tablet.png">
+                        </div>
+                        <div class="product-tablet__discription-oll">
+                            <h3><span>Cat Energy slim</span>
+                                <span>500г</span></h3>
+                            <ul>
+                                <li>Обьем</li>
+                                <li>500г</li>
+                            </ul>
+                            <ul>
+                                <li>Вус</li>
+                                <li>Гречка</li>
+                            </ul>
+                            <ul>
+                                <li>Цена</li>
+                                <li>400р</li>
+                            </ul>
+                            <button class="product__button" type="button">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="product-tablet-block">
+                        <div class="product-tablet__bye-oll">
+                            <img class="product-tablet-block__img" src="image/catalog-6-tablet.png">
+                        </div>
+                        <div class="product-tablet__discription-oll">
+                            <h3><span>Cat Energy slim</span>
+                                <span>1000г</span></h3>
+                            <ul>
+                                <li>Обьем</li>
+                                <li>1000г</li>
+                            </ul>
+                            <ul>
+                                <li>Вус</li>
+                                <li>Гречка</li>
+                            </ul>
+                            <ul>
+                                <li>Цена</li>
+                                <li>700р</li>
+                            </ul>
+                            <button class="product__button" type="button">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="product-tablet-block">
+                        <div class="product-tablet__bye-oll">
+                            <img src="image/catalog-7-tablet.png">
+                        </div>
+                        <div class="product-tablet__discription-oll">
+                            <h3><span>Cat Energy slim</span>
+                                <span>500г</span></h3>
+                            <ul>
+                                <li>Обьем</li>
+                                <li>500г</li>
+                            </ul>
+                            <ul>
+                                <li>Вус</li>
+                                <li>Рис</li>
+                            </ul>
+                            <ul>
+                                <li>Цена</li>
+                                <li>500р</li>
+                            </ul>
+                            <button class="product__button" type="button">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="product-tablet-block">
+                        <div class="product-tablet__bye-oll">
+                            <div class="product-tablet-block-oll">
+                                <div class="product-oll__wrapper">
+                                    <div class="product-bye">
+                                        <div class="product-oll__h3 product-oll__sprite">
+                                            <a class="product-oll__show" href="#">Показать еще 100500 товаров</a>
+                                            <span>На самом деле вкусов гораздо больше!</span>
+                                        </div>
+                                    </div>
+                                    <button class="product__addition" type="button">Заказать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="addition-product">
+        <div class="addition-product__wrapper">
+            <div class="addition-product__wrapper-oll">
+                <div class="addition-product__oll-h2">
+                    <h2 class="addition-product__h2 addition-product__sprite">Дополнительные товары</h2>
+                </div>
+                <div class="addition-product__oll-sugar">
+                    <div class="addition-product__oll-block">
+                        <h4>Сахарозаменитель</h4>
+                        <div class="addition-product__packaging">
+                            <span class="packaging">1 упаковка (100г)</span>
+                            <span class="price">100Р.</span>
+                        </div>
+                    </div>
+                    <button class="addition-product__order" type="button">Заказать</button>
+                </div>
+                <div class="addition-product__oll-sugar">
+                    <div class="addition-product__oll-block">
+                        <h4>Питевая вода</h4>
+                        <div class="addition-product__packaging">
+                            <span class="packaging">5 литров</span>
+                            <span class="price">50Р.</span>
+                        </div>
+                    </div>
+                    <button class="addition-product__order" type="button">Заказать</button>
+                </div>
+                <div class="addition-product__oll-sugar">
+                    <div class="addition-product__oll-block">
+                        <h4>Молоко</h4>
+                        <div class="addition-product__packaging">
+                            <span class="packaging">1 литр</span>
+                            <span class="price">100Р.</span>
+                        </div>
+                    </div>
+                    <button class="addition-product__order" type="button">Заказать</button>
+                </div>
+                <div class="addition-product__oll-sugar">
+                    <div class="addition-product__oll-block">
+                        <h4>Витамины</h4>
+                        <div class="addition-product__packaging">
+                            <span class="packaging">1 упаковка (30г)</span>
+                            <span class="price">300Р.</span>
+                        </div>
+                    </div>
+                    <button class="addition-product__order" type="button">Заказать</button>
+                </div>
+            </div>
+            <div class="addition-product__gift-block">
+                <div class="addition-product__gift-block__wrapper">
+                    <img class="gift-blcok__img3" src="image/gift-photo-desktop.jpg">
+                    <div class="gift-block__sprite gift-block__present">
+                        <div class="gift-block__text">
+                            Закажите все
+                            и получите чехол для
+                            кота в подарок!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gift-block">
+        <div class="gift-block__wrapper">
+            <img class="gift-blcok__img1" src="image/gift-photo-mobile.jpg">
+            <img class="gift-blcok__img2" src="image/gift-photo-tablet.jpg">
+            <div class="gift-block__sprite gift-block__present">
+                <div class="gift-block__text">
+                    Закажите все
+                    и получите чехол для
+                    кота в подарок!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="address-block">
+        <div class="address-block__wrapper">
+            <div class="address-block__invitation">
+                Приглашаем
+                к сотрудничеству
+                дилеров!
+            </div>
+            <div class="invitation__address">
+                улю Большая
+                Конюшенная, д. 19/8
+                <span class="address-block__city">Санкт-Петербург</span>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <div class="map__wrapper">
+            <img class="map1" src="image/map-mob.jpg">
+            <img class="map2" src="image/map-tablet.jpg">
+            <img class="map3" src="image/map-desktop.jpg">
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <div class="footer__wrapper">
+        <div class="footer__wrapper-oll">
+            <div class="footer-logo">
+                <span>Cat</span> energy
+            </div>
+            <div class="footer__social">
+                <div class="footer__social-wrapper">
+                    <div class="social-sprite social-vk">Вконтакте</div>
+                    <div class="social-sprite social-inst">Инстограм</div>
+                    <div class="social-sprite social-facebook">Фэйсбук</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
